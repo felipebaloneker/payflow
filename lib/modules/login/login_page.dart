@@ -27,7 +27,7 @@ class _LoginPageState extends State<LoginPage> {
         child: Stack(children: [
           Container(
             width: size.width,
-            height: size.height * 0.3,
+            height: size.height * 0.36,
             color: AppColors.primary,
           ),
           Positioned(
@@ -40,7 +40,7 @@ class _LoginPageState extends State<LoginPage> {
                 height: 300,
               )),
           Positioned(
-            bottom: size.height * 0.05,
+            bottom: size.height * 0.2,
             left: 0,
             right: 0,
             child: Column(
